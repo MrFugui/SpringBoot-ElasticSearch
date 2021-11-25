@@ -1,0 +1,41 @@
+server:
+  port: 8080
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/apprentice?serverTimezone=PRC
+    username: root
+    password: 123456.Com
+  servlet:
+    multipart:
+      max-file-size: 200MB  #设置单个文件大小
+      max-request-size: 200MB #设置单次请求文件的总大小
+  redis:
+    database: 0
+    host: localhost
+    port: 6380
+    password: 123456.Com
+  #email 配置
+  mail:
+    host: smtp.163.com
+    username: masiyi163163@163.com #发送邮件人的邮箱
+    password: NOTZSOMXJEEIDLNY #这个密码是邮箱设置里SMTP服务生成的授权码
+    default-encoding: UTF-8
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+base:
+  javaDir: E:\msyWorkspace\Programmer-Apprentice\apprentice\src\main\java
+  mapperDir: E:\msyWorkspace\Programmer-Apprentice\apprentice\src\main\resources\mapper
+#minio配置
+minio:
+  url: http://localhost:9000  #对象存储服务的URL
+  accessKey: root #Access key账户
+  secretKey: 123456.com  #Secret key密码
+elasticSearch:
+  hostname: localhost
+  port: 9200
+  scheme: http

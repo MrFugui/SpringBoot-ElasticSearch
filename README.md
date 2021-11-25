@@ -1,4 +1,4 @@
-## 啦啦啦啦啦，富贵同学又开始开坑了，出了个免费的专栏，主要给大家从0基础开始用springBoot集成第三方的插件或者功能，如果这篇专栏能办到你，一定不要忘了点一个赞哦！！欢迎大家收藏分享
+## 啦啦啦啦啦，富贵同学又开始开坑了，出了个免费的专栏，主要给大家从0基础开始用springBoot集成第三方的插件或者功能，如果这篇专栏能帮到你，一定不要忘了点一个赞哦！！欢迎大家收藏分享
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/385dc942abfc4a019d845055328814c1.png#pic_center)
 **如果还有朋友还没有安装ElasticSearch 的，请先移步到我的这篇文章**
 [Linux安装ElasticSearch以及Ik分词器](https://blog.csdn.net/csdnerM/article/details/121509681)
